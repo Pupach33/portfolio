@@ -1,0 +1,39 @@
+.mainDiv{
+    width: 100%;
+    background-color: #c3d3ee;
+    border-radius: 3%;
+    height: 280px;
+    color: black;
+}
+.chooseButtonDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.gameImageDiv{
+    display: flex;
+
+    justify-content: center;
+}
+.gameImages{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+.chooseButton{
+    border: none;
+    background-color: aquamarine;
+    border-radius: 13%;
+    width: 40px;
+}
+.play{
+    margin-top: 20px;
+    background-color: rgb(165, 253, 224);
+    width: 100%;
+    height: 50px;
+}
+@media only screen and (max-width: 1366px){
+    .gameImages{
+        width: 200px;
+    }
+}

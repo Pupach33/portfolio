@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1d1d1d ;
+  color: white;
+}
+.main{
+  height:100vh ;
+  display: flex;
+  width: 100vh;
+  align-items: center;
+  margin-left: 16%;
+  
+  
+}
+.somemain{
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.screen{
+  display: flex;
+  width: 100%;
+}
+.header{
+  display: flex;  
+  position: fixed;
+  flex-direction: column;
+  height: 100vh;
+}
+._header{
+  display: flex;
+  background-color: #323332 ;
+  height: 100%;
+  width: 50px;
+}
+._header2{
+  display: flex ;
+  height: 100%;
+  background-color: #323332 ;
+}
+._header3{
+  display: flex;
+  flex-direction: column;
+  background-color: #252525 ;
+  width: 200px;
+  height: 100%;
+}
+.port{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+ 
+}
+.panel{
+ position: fixed;
+ margin-left: 250px;
+ width: 87%;
+ height:3%;
+ background-color: #252525;
+ 
+}
+.lowerpanel{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #007acc;
+ display: flex;
+ justify-content: space-between;
+ height: 20px;
+}
+.pechat{
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid white;
+  animation: cursor 0.75s step-end infinite,
+  printed_text 2.5s steps(10);
+;
+
+}
+@keyframes cursor {
+  0%{
+      border-color: white;
+  }
+
+  50%{
+      border-color: transparent;
+  }
+
+  100%{
+      border-color: white;
+  }
+}
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+  30%{
+    width: 30%;
+  }
+  60%{
+    width: 60%;
+  }
+  90%{
+    width: 90%;
+  }
+}
+.hTeg{
+  font-size: 60px;
+  
+}
+.boxImg{
+  margin-left: 33%;
+}
+.back{
+  position: absolute;
+ 
+  font-size: 100px;
+  user-select:none;
+  opacity: 0.04;
+  z-index: 1;
+  
+}
+.back_1{
+  top: 36%;
+}
+.back_2{
+  bottom: 33%;
+}
+.buttonMainDiv{
+  position: absolute;
+  bottom: 31%;
+}
+
+@media only screen and (max-width: 1366px){
+  .panel{
+    margin-left: 200px;
+  }
+  .boxImg{
+    margin-left: 16%;
+  }
+  ._header3{
+    width: 150px;
+  }
+}
+
+
+

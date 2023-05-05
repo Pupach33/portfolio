@@ -1,0 +1,21 @@
+.cell{
+    border: 1px solid blue;
+    width: 33%;
+    text-align: center;
+    
+}
+.row{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    
+}
+.cell2{
+    border-top-left-radius: 16%;
+}
+.reset{
+    background-color: aquamarine;
+    border-radius: 30%;
+    width: 50px;
+    border: none;
+}

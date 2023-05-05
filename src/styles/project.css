@@ -1,0 +1,132 @@
+.project{
+    width: 650px;
+    height: 450px;
+    margin: 10px;
+    border: 3px solid #383838;
+    border-radius: 3%;  
+}
+
+.project-main{
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  .project-main22{
+    margin-left: 17% ;
+  
+  }
+.project-h{
+   margin-top: 30px;
+    margin-left: 100px;
+}
+.project-photo{
+    width: 100%;
+    display: flex;
+    border-radius: 3%;
+    height: 280px;
+}
+.zagolovok{
+    margin: 10px;
+}
+.stack{
+    display: flex;
+    
+}
+.stack_text{
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 4px;
+}
+.link,link:visited{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid  green;
+    margin-left: 10px;
+}
+
+.link:hover{
+   background-color: green;
+   padding: 1px;
+   border-radius: 15%;
+   transition: 0.5s;
+}
+
+.link_div{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.green{
+    border: 1px solid aquamarine;
+    border-bottom-right-radius: 20% ;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius:20% ;
+}
+.green:hover{
+    background-color:  rgba(55, 247, 183, 0.3);
+    transition: 0.3s;
+}
+.blue{
+    border: 1px solid rgb(2, 97, 238);
+    
+    border-bottom-right-radius: 20% ;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius:20% ;
+    
+}
+.blue:hover{
+    background-color: rgb(2, 97, 238 ,0.3);
+    transition: 0.3s;
+}
+.pink{
+    border: 1px solid rgb(204, 6, 204);
+    border-bottom-right-radius: 20% ;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius:20% ;
+}
+.red{
+    border: 1px solid rgb(221, 58, 52);
+    border-bottom-right-radius: 20% ;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius:20% ;
+}
+.yellow{
+    border: 1px solid rgb(193, 206, 9);
+    border-bottom-right-radius: 20% ;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius:20% ;
+}
+.pink:hover{
+    background-color: rgb(204, 6, 204 ,0.3);
+    transition: 0.3s;
+}
+.red:hover{
+    background-color: rgb(221, 58, 52 ,0.3);
+    transition: 0.3s;
+}
+.yellow:hover{
+    background-color: rgb(193, 206, 9 ,0.3);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1366px){
+    .project{
+        width: 500px;
+        height: 460px;
+        margin: 10px;
+        border: 3px solid #383838;
+        border-radius: 3%;  
+    }
+    .project-main22{
+        margin-left: 22% ;
+      
+      }
+
+
+  }
