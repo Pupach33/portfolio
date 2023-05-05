@@ -4,7 +4,11 @@ export default function TicTacToe(){
     const [cells, setCells] = useState(Array(9).fill(null));
     const [isXNext ,setIsXNext] = useState(true)
     const winner = calculateWinner(cells);
-
+    
+    interface Cell {
+      cells: null | string
+    }
+    
     function handkeCellClick(index: number){
         const newCells = [...cells]
         newCells[index] = isXNext?"X":"O"
@@ -16,7 +20,7 @@ export default function TicTacToe(){
         setIsXNext(true);
       }
 
-      function calculateWinner(cells:[]) {
+      function calculateWinner(cells:Cell[]) {
         const lines = [
           [0, 1, 2],
           [3, 4, 5],
