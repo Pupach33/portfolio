@@ -62,6 +62,7 @@ export default function Project(){
                 <div className="stack">
                     <h2 className="stack_text blue">Next.js</h2>
                     <h2 className="stack_text yellow">Node</h2>
+                    <h2 className="stack_text blue">Typescript</h2>
                 </div>
             </div>
             <div className="project">
